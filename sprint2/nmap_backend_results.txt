@@ -1,0 +1,16 @@
+# Nmap 7.95 scan initiated Sat Oct 25 04:09:05 2025 as: /usr/lib/nmap/nmap --privileged -sV -p- -oN nmap_backend_results.txt lawconnect-backend-latest.onrender.com
+Nmap scan report for lawconnect-backend-latest.onrender.com (216.24.57.7)
+Host is up (0.011s latency).
+Other addresses for lawconnect-backend-latest.onrender.com (not scanned): 216.24.57.251
+Not shown: 38477 filtered tcp ports (net-unreach), 27051 filtered tcp ports (no-response)
+PORT     STATE SERVICE    VERSION
+80/tcp   open  tcpwrapped
+443/tcp  open  tcpwrapped
+2082/tcp open  tcpwrapped
+2087/tcp open  tcpwrapped
+2095/tcp open  tcpwrapped
+8020/tcp open  tcpwrapped
+8080/tcp open  tcpwrapped
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Oct 25 04:10:53 2025 -- 1 IP address (1 host up) scanned in 107.93 seconds
