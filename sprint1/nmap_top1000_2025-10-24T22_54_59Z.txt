@@ -1,0 +1,50 @@
+# Nmap 7.95 scan initiated Fri Oct 24 17:55:22 2025 as: /usr/lib/nmap/nmap -sS -sV --top-ports 1000 -T2 -oN /root/evidence/sprint1/nmap_top1000_2025-10-24T22:54:59Z.txt -oX /root/evidence/sprint1/nmap_top1000_2025-10-24T22:54:59Z.xml 199.36.158.100
+Nmap scan report for 199.36.158.100
+Host is up (0.040s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE    VERSION
+80/tcp  open  http-proxy Varnish
+443/tcp open  ssl/https
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port443-TCP:V=7.95%T=SSL%I=7%D=10/24%Time=68FC075F%P=x86_64-pc-linux-gn
+SF:u%r(GetRequest,2CDC,"HTTP/1\.1\x20404\x20Not\x20Found\r\nConnection:\x2
+SF:0close\r\nContent-Length:\x2021265\r\nCache-Control:\x20max-age=0\r\nCo
+SF:ntent-Type:\x20text/html;\x20charset=utf-8\r\nStrict-Transport-Security
+SF::\x20max-age=31556926\r\nAccept-Ranges:\x20bytes\r\nDate:\x20Fri,\x2024
+SF:\x20Oct\x202025\x2023:10:44\x20GMT\r\nX-Served-By:\x20cache-scl2220078-
+SF:SCL\r\nX-Cache:\x20HIT\r\nX-Cache-Hits:\x20124\r\nX-Timer:\x20S17613474
+SF:44\.237644,VS0,VE0\r\nVary:\x20x-fh-requested-host,\x20accept-encoding\
+SF:r\nalt-svc:\x20h3=\":443\";ma=86400,h3-29=\":443\";ma=86400,h3-27=\":44
+SF:3\";ma=86400\r\n\r\n\n<!doctype\x20html>\n<html>\n\x20\x20<head>\n\x20\
+SF:x20\x20\x20<title>Site\x20Not\x20Found</title>\n\x20\x20\x20\x20<link\x
+SF:20href='https://fonts\.googleapis\.com/css\?family=Roboto'\x20rel='styl
+SF:esheet'\x20type='text/css'>\n\x20\x20\x20\x20<meta\x20name=\"viewport\"
+SF:\x20content=\"width=device-width,\x20initial-scale=1\">\n\x20\x20\x20\x
+SF:20<style>\n\n\x20\x20\x20\x20\x20\x20body\x20{\n\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20margin:\x200\x20auto;\n\x20\x20\x20\x20\x20\x20\x20\x20margin-
+SF:top:\x2048px;\n\x20\x20\x20\x20\x20\x20\x20\x20max-width:\x20616px;\n\x
+SF:20\x20\x20\x20\x20\x20\x20\x20padding:\x200\x2016px;\n\x20\x20\x20\x20\
+SF:x20\x20\x20\x20font-family:\x20'Roboto',\x20'Helvetica\x20Neue',\x20san
+SF:s-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20font-s")%r(HTTPOptions,11D3,"
+SF:HTTP/1\.1\x20404\x20Not\x20Found\r\nConnection:\x20close\r\nCache-Contr
+SF:ol:\x20max-age=0\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nStr
+SF:ict-Transport-Security:\x20max-age=31556926\r\nAccept-Ranges:\x20bytes\
+SF:r\nDate:\x20Fri,\x2024\x20Oct\x202025\x2023:10:44\x20GMT\r\nX-Served-By
+SF::\x20cache-scl2220036-SCL\r\nX-Cache:\x20MISS\r\nX-Cache-Hits:\x200\r\n
+SF:X-Timer:\x20S1761347444\.373950,VS0,VE182\r\nVary:\x20x-fh-requested-ho
+SF:st,\x20accept-encoding\r\nalt-svc:\x20h3=\":443\";ma=86400,h3-29=\":443
+SF:\";ma=86400,h3-27=\":443\";ma=86400\r\n\r\n\n<!doctype\x20html>\n<html>
+SF:\n\x20\x20<head>\n\x20\x20\x20\x20<title>Site\x20Not\x20Found</title>\n
+SF:\x20\x20\x20\x20<link\x20href='https://fonts\.googleapis\.com/css\?fami
+SF:ly=Roboto'\x20rel='stylesheet'\x20type='text/css'>\n\x20\x20\x20\x20<me
+SF:ta\x20name=\"viewport\"\x20content=\"width=device-width,\x20initial-sca
+SF:le=1\">\n\x20\x20\x20\x20<style>\n\n\x20\x20\x20\x20\x20\x20body\x20{\n
+SF:\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200\x20auto;\n\x20\x20\x20\x20
+SF:\x20\x20\x20\x20margin-top:\x2048px;\n\x20\x20\x20\x20\x20\x20\x20\x20m
+SF:ax-width:\x20616px;\n\x20\x20\x20\x20\x20\x20\x20\x20padding:\x200\x201
+SF:6px;\n\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20'Roboto',\x20'Hel
+SF:vetica\x20Neue',\x20sans-serif;\n\x20\x20\x20\x20\x20\x20\x20\x20font-s
+SF:ize:\x2016px;\n\x20\x20\x20\x20\x20\x20\x20\x20lin");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Oct 24 18:10:29 2025 -- 1 IP address (1 host up) scanned in 908.00 seconds

@@ -1,0 +1,54 @@
+WhatWeb report for [1m[34mhttps://frontendgit-09482557-4f090.web.app/[0m
+Status    : 200 OK
+Title     : [1m[33mLawConnect[0m
+IP        : 199.36.158.100
+Country   : [1m[31mUNITED STATES, US[0m
+
+Summary   : [1mHTML5[0m, [1mScript[0m[[0m[22mmodule[0m], [1mStrict-Transport-Security[0m[[0m[22mmax-age=31556926; includeSubDomains; preload[0m], [1mUncommonHeaders[0m[[0m[22mx-served-by,x-cache-hits,x-timer,alt-svc[0m]
+
+Detected Plugins:
+[ [1mHTML5[0m ]
+	HTML version 5, detected by the doctype declaration 
+
+
+[ [1mScript[0m ]
+	This plugin detects instances of script HTML elements and 
+	returns the script language/type. 
+
+	String       : [1m[36mmodule[0m
+
+[ [1mStrict-Transport-Security[0m ]
+	Strict-Transport-Security is an HTTP header that restricts 
+	a web browser from accessing a website without the security 
+	of the HTTPS protocol. 
+
+	String       : [1m[36mmax-age=31556926; includeSubDomains; preload[0m
+
+[ [1mUncommonHeaders[0m ]
+	Uncommon HTTP server headers. The blacklist includes all 
+	the standard headers and many non standard but common ones. 
+	Interesting but fairly common headers should have their own 
+	plugins, eg. x-powered-by, server and x-aspnet-version. 
+	Info about headers can be found at www.http-stats.com 
+
+	String       : [1m[36mx-served-by,x-cache-hits,x-timer,alt-svc[0m (from headers)
+
+HTTP Headers:
+	HTTP/1.1 200 OK
+	Connection: close
+	Content-Length: 259
+	Cache-Control: max-age=3600
+	Content-Encoding: gzip
+	Content-Type: text/html; charset=utf-8
+	Etag: "de3eaeaa2aef90f336a73dabc390981d14b128871f5193417726a446c1a444c7"
+	Last-Modified: Fri, 24 Oct 2025 14:27:42 GMT
+	Strict-Transport-Security: max-age=31556926; includeSubDomains; preload
+	Accept-Ranges: bytes
+	Date: Fri, 24 Oct 2025 22:29:02 GMT
+	X-Served-By: cache-scl2220039-SCL
+	X-Cache: HIT
+	X-Cache-Hits: 0
+	X-Timer: S1761344943.900905,VS0,VE1
+	Vary: x-fh-requested-host, accept-encoding
+	alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+	
